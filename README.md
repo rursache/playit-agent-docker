@@ -1,2 +1,24 @@
-# playit-agent-docker
-Playit.gg Agent Docker Image
+# Playit.gg Agent Docker Image
+
+Learn more about [Playit.gg](https://playit.gg/) [here](https://playit.gg/about)
+
+# Installation
+```sh
+docker run -d \
+  --name playit \
+  -e TZ=Europe/Bucharest \
+  -v /home/radu/.playit:/config \
+  rursache/playit-agent-docker
+```
+> **Note**
+>
+> Make sure to mount `/config` to a directory that contains your `config.toml`
+>
+> Please run the [GUI app](https://playit.gg/download) first to generate your `config.toml`
+
+# Build
+```sh
+git clone https://github.com/rursache/playit-agent-docker
+cd playit-agent-docker
+docker build -t rursache/playit-agent-docker .
+```
