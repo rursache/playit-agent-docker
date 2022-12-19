@@ -6,6 +6,7 @@ Learn more about [Playit.gg](https://playit.gg/) [here](https://playit.gg/about)
 ```sh
 docker run -d \
   --name playit \
+  --restart unless-stopped \
   -e TZ=Europe/Bucharest \
   -v /YOUR/CONFIG/PATH:/config \
   ghcr.io/rursache/playit-agent-docker:latest
