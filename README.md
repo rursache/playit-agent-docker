@@ -7,8 +7,8 @@ Learn more about [Playit.gg](https://playit.gg/) [here](https://playit.gg/about)
 docker run -d \
   --name playit \
   -e TZ=Europe/Bucharest \
-  -v /home/radu/.playit:/config \
-  rursache/playit-agent-docker
+  -v /YOUR/CONFIG/PATH:/config \
+  ghcr.io/rursache/playit-agent-docker:latest
 ```
 > **Note**
 >
