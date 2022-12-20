@@ -50,5 +50,5 @@ cd playit-agent-docker
 docker build -t rursache/playit-agent-docker .
 ```
 
-# LICENSE
+# License
 This repo is available under the MPL-2.0 license. See the LICENSE file for more info.
