@@ -1,5 +1,7 @@
 # Playit.gg Agent Docker Image
 
+⚠️ No longer maintained as I switched to the [official server plugin](https://playit.gg/download/plugins) ⚠️
+
 Learn more about [Playit.gg](https://playit.gg/) [here](https://playit.gg/about)
 
 # Installation
